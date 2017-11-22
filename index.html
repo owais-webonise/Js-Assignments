@@ -12,22 +12,22 @@
 		Set_Key: <input type="text" id="key11" name="key1"> &emsp; &emsp;
 		Set_Value: <input type="text" id="key12" name="value1"><br><br><br>
 		<div id = 'buttons'>
-			<input type="button" id='button1' value="Session">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-			<input type="button" id='button2' value="Local">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+			<input type="button" id='button1' value="Session" onclick="setInSS()">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+			<input type="button" id='button2' value="Local" onclick="setInLS()">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 			<input type="button" id='button12' value="Cookie"><br><br><br>
 		</div>
 		Get_Key: <input type="text" id="key21" name="key2"><br><br><br>
 		<div id = 'buttons1'>
-			<input type="button" id='button3'  value="Session">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-			<input type="button" id='button4'  value="Local"><br><br><br>
+			<input type="button" id='button3'  value="Session" onclick="getSS()">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+			<input type="button" id='button4'  value="Local" onclick="getLS()"><br><br><br>
 		</div>
 		<div id = 'buttons2'>
-			<input type="button" id='button5' value="Session_getall">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-			<input type="button" id='button6' value="Local_getall"><br><br><br>
+			<input type="button" id='button5' value="Session_getall" onclick="getAllSS()">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+			<input type="button" id='button6' value="Local_getall" onclick="getAllLS()"><br><br><br>
 		</div>
 		<div id = 'buttons3'>
-			<input type="button" id='button7' value="Session_delall">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-			<input type="button" id='button8' value="Local_delall"><br><br><br>
+			<input type="button" id='button7' value="Session_delall" onclick="clearSS()">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+			<input type="button" id='button8' value="Local_delall" onclick="clearLS()"><br><br><br>
 		</div>
 	</form>
 </body>
